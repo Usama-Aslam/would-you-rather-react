@@ -1,10 +1,30 @@
+# Would you rather?
+
+This is Second project in one the final projects from Udacity's React Nano Degree program. It is developed using Material-UI,React,Redux.
+
+This is a web app that lets a user play the “Would You Rather?” game. The game goes like this: A user is asked a question in the form: “Would you rather [option A] or [option B] ?”. User select any of the option. Answering "neither" or "both" is against the rules.
+
+In this app, users will be able to answer questions, see which questions they haven’t answered, see how other people have voted, post questions, and see the ranking of users on the leaderboard.
+
+I hope you gonna enjoy it
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Clone this app
+
+Open Terminal / Command Prompt, then run:
+
+#### `git clone https://github.com/Usama-Aslam/would-you-rather-react.git`
+
+#### `cd would-you-rather-react`
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm install` OR `yarn install`
+
+#### `npm start` OR `yarn start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -12,12 +32,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
+#### `npm test` OR `yarn test`
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build` OR `yarn run build`
 
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -27,7 +47,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### `npm run eject` OR `yarn run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -37,7 +57,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+#### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 

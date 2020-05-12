@@ -1,68 +1,68 @@
-const styles = theme => ({
-    centerScreen: {
-        flex: 1,
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        minHeight: 'inherit',
+const styles = (theme) => ({
+  centerScreen: {
+    flex: 1,
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    minHeight: "inherit",
+  },
+  textField: {
+    flex: 2,
+    display: "flex",
+    marginTop: 2,
+    marginBottom: 2,
+    justifyContent: "center",
+    alignItems: "center",
+    color: "#bde0ff",
+  },
+  cssUnderline: {
+    "&:after": {
+      borderBottomColor: "#bde0ff",
     },
-    textField: {
-        flex: 2,
-        display: 'flex',
-        marginTop: 2,
-        marginBottom: 2,
-        justifyContent: 'center',
-        alignItems: 'center',
-        color: "#EABA00",
+    "&:hover:not($disabled):not($focused):not($error):before": {
+      borderColor: "#bde0ff",
     },
-    cssUnderline: {
-        '&:after': {
-            borderBottomColor: "#EABA00",
-        },
-        '&:hover:not($disabled):not($focused):not($error):before': {
-            borderColor: "#EABA00",
-        }
+  },
+  disabled: {},
+  focused: {},
+  error: {},
+  cssOutlinedInput: {
+    "&$cssFocused $notchedOutline": {
+      borderColor: "#bde0ff",
     },
-    disabled: {},
-    focused: {},
-    error: {},
-    cssOutlinedInput: {
-        '&$cssFocused $notchedOutline': {
-            borderColor: "#EABA00",
-        },
+  },
+  notchedOutline: {},
+  cssLabel: {
+    "&$cssFocused": {
+      color: "#bde0ff",
     },
-    notchedOutline: {},
-    cssLabel: {
-        '&$cssFocused': {
-            color: "#EABA00",
-        },
+  },
+  cssFocused: {},
+  margin: {
+    marginLeft: 15,
+    marginBottom: 25,
+  },
+  button: {
+    border: "0.1em solid #bde0ff",
+    backgroundColor: "white",
+    "&:hover": {
+      backgroundColor: "#bde0ff",
     },
-    cssFocused: {},
-    margin: {
-        marginLeft: 15,
-        marginBottom: 25,
-    },
-    button: {
-        border: "0.1em solid #EABA00",
-        backgroundColor: "white",
-        '&:hover': {
-            backgroundColor: '#EABA00',
-        },
-        marginTop: 18,
-    },
-    header: {
-        flex: 2,
-        display: 'flex',
-        justifyContent: 'left',
-        alignItems: 'center',
-        margin: 20,
-    },
-    subHead: {
-        flex: 2,
-        textAlign: 'left',
-        margin: 10,
-        marginLeft: 20
-    }
-})
+    marginTop: 18,
+  },
+  header: {
+    flex: 2,
+    display: "flex",
+    justifyContent: "left",
+    alignItems: "center",
+    margin: 20,
+  },
+  subHead: {
+    flex: 2,
+    textAlign: "left",
+    margin: 10,
+    marginLeft: 20,
+  },
+});
 
-export default styles
+export default styles;
