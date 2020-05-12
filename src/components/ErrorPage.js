@@ -1,12 +1,19 @@
-import React from "react";
-import Typography from "@material-ui/core/Typography";
+import React from 'react';
+import Typography from '@material-ui/core/Typography';
+import { withStyles } from '@material-ui/core/styles';
+import styles from './styles/ErrorPage'
 
-export default function ErrorPage() {
-  return (
-    <div>
-      <Typography variant="h2" noWrap>
-        Page not fount
-      </Typography>
-    </div>
-  );
+function ErrorPage(props) {
+    const { classes } = props
+    return (
+        <div className={classes.centerScreen} >
+            <Typography
+                variant="h2"
+                className={classes.text}
+            >
+                404 Error: Page not found
+            </Typography>
+        </div>
+    )
 }
+export default withStyles(styles)(ErrorPage);
